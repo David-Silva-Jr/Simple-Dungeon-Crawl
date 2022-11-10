@@ -21,6 +21,7 @@ public class SlimeAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // comment
         timer += Time.deltaTime;
         if(timer >= interval){
             timer -= interval;
